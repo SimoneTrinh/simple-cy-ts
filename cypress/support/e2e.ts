@@ -15,7 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import "./commands";
-import "../../node_modules/cypress-xpath";
+import "../../node_modules/@cypress/xpath";
 import "cypress-network-idle";
 
 // Alternatively you can use CommonJS syntax:
