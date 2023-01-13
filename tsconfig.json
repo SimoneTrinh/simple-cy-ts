@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "lib": [
+            "ES6",
+            "DOM"
+        ],
+        "types": [
+            "cypress",
+            "cypress-xpath",
+            "cypress-network-idle",
+        ]
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}

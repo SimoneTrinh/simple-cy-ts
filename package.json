@@ -1,0 +1,25 @@
+{
+  "name": "cypress-ts-test-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy-open": "cypress open",
+    "cy-run": "cypress run --browser chrome --headed --reporter mochawesome",
+    "mocha-merge": "npx mochawesome-merge ./cypress/reports/*.json -o mochawesome.json",
+    "mocha-export": "npx marge mochawesome.json",
+    "mocha-show": "cmd /c start mochawesome-report/mochawesome.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.3.0",
+    "cypress-network-idle": "^1.11.2",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2",
+    "mochawesome-report-generator": "^6.2.0",
+    "typescript": "^4.9.4"
+  }
+}
